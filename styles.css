@@ -1,0 +1,45 @@
+.first{
+    display: flex;
+    border: 5px dashed;
+
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.second{
+    display: flex;
+
+    border: 5px dashed;
+    align-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    flex-wrap: wrap-reverse;
+}
+
+.third{
+    display: flex;
+    border: 5px dashed;
+
+    align-items: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.fourth{
+    display: flex;
+    border: 5px dashed;
+
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+}
+
+.fifth{
+    display: flex;
+    border: 5px dashed;
+
+    align-items: flex-start;
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+}
